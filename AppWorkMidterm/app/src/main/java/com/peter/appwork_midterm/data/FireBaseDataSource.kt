@@ -8,6 +8,7 @@ import com.google.gson.GsonBuilder
 import org.json.JSONObject
 import java.sql.Timestamp
 import java.util.*
+import kotlin.collections.ArrayList
 
 object FireBaseDataSource {
 
@@ -15,6 +16,8 @@ object FireBaseDataSource {
 
 
     var list: MutableMap<String,Any> ?= null
+
+    var listData = ArrayList<ContentData>()
 
 
     fun addData(){
@@ -57,7 +60,17 @@ object FireBaseDataSource {
                 for (document in snapshot!!) {
                     Log.d("Snap", document.id + " => " + document.data)
                     list=document.data
+                    
                     Log.d("Snap", " result of list => $list")
+
+
+
+                   val itr = list!!.keys.iterator()
+                    while (itr.hasNext()){
+                        val key = itr.next()
+                        val value = list!![key]
+                        Log.d("Snap", " value => ${value}")
+                    }
 
 
 
