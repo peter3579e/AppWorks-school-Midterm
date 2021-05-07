@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "866492490485",
+    "project_id": "appwork-midterm",
+    "storage_bucket": "appwork-midterm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866492490485:android:4f65e520132bebe55edbbc",
+        "android_client_info": {
+          "package_name": "com.peter.appwork_midterm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866492490485-04bjfaf0snb69i32drff1a2l6asneb58.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMlbpSCVGgX_417SBgEExndSh4dr3dtoQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866492490485-04bjfaf0snb69i32drff1a2l6asneb58.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
